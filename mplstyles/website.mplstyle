@@ -1,0 +1,36 @@
+axes.facecolor : w
+figure.facecolor : w
+
+axes.spines.top : False
+axes.spines.right : False
+axes.edgecolor : 1F77B4
+axes.labelcolor : 1F77B4
+axes.grid : False
+axes.prop_cycle : cycler(color=['1F77B4', 'FF7F0E', '00c749', '002147']) 
+
+xtick.color : 1F77B4
+ytick.color : 1F77B4
+
+figure.figsize : 10 , 8
+figure.dpi : 200
+savefig.dpi : 200
+savefig.transparent : True
+
+legend.frameon : True
+legend.framealpha : 0
+legend.edgecolor : 1F77B4
+
+lines.markersize : 10
+lines.linewidth : 4
+
+image.cmap : inferno
+image.aspect: auto
+image.origin: lower
+
+
+font.size : 22
+font.family : sans-serif
+font.sans-serif : Ubuntu
+text.color : 1F77B4
+
+mathtext.fontset : cm

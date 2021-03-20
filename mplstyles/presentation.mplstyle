@@ -1,0 +1,32 @@
+axes.facecolor : 222222
+figure.facecolor : 222222
+
+axes.spines.top : False
+axes.spines.right : False
+axes.edgecolor : w
+axes.labelcolor : w
+axes.grid : False
+axes.prop_cycle : cycler(color=['1F77B4', 'FF7F0E','w']) 
+
+xtick.color : w
+ytick.color : w
+
+figure.figsize : 10 , 8
+figure.dpi : 200
+savefig.dpi : 200
+#savefig.transparent : True
+
+lines.markersize : 10
+lines.linewidth : 4
+
+image.cmap : plasma
+image.aspect: auto
+image.origin: lower
+
+
+font.size : 22
+font.family : sans-serif
+font.sans-serif : Ubuntu
+text.color : w
+
+mathtext.fontset : cm

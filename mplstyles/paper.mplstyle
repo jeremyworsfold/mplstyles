@@ -1,0 +1,42 @@
+axes.facecolor : w
+figure.facecolor : w
+
+axes.edgecolor : k
+axes.labelcolor : k
+axes.grid : True
+axes.grid.which : major
+axes.axisbelow : True
+axes.formatter.use_mathtext: True
+axes.prop_cycle : cycler(color=['b', 'r','g'],linestyle=['-', '--', ':'],marker=['o','s','x'])
+
+grid.linestyle : --
+grid.color : k
+grid.alpha : 0.4
+grid.linewidth : 0.6
+
+xtick.color : k
+ytick.color : k
+
+figure.figsize : 10 , 6
+figure.dpi : 200
+savefig.dpi : 200
+
+lines.markersize : 8
+lines.linewidth : 1.5
+
+legend.frameon : True
+legend.framealpha : 1
+legend.edgecolor : 0.4
+legend.fancybox : False
+
+image.cmap : viridis
+image.aspect: auto
+image.origin: lower
+
+
+font.size : 18
+font.family : serif
+font.serif : CMU Serif
+text.color : k
+
+mathtext.fontset : cm
