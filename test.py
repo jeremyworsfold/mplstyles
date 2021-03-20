@@ -47,3 +47,7 @@ def test_context():
             plt.ylabel(r'$y(t)$')
             plt.savefig(f'figs/line_{style}')
 
+if __name__ == "__main__":
+    test_plot()
+    test_colormap()
+    test_context()

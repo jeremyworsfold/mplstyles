@@ -14,7 +14,7 @@ ytick.color : w
 figure.figsize : 10 , 8
 figure.dpi : 200
 savefig.dpi : 200
-#savefig.transparent : True
+savefig.transparent : False
 
 lines.markersize : 10
 lines.linewidth : 4
