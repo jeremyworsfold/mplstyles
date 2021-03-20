@@ -5,6 +5,7 @@ axes.spines.top : False
 axes.spines.right : False
 axes.edgecolor : k
 axes.labelcolor : k
+axes.linewidth : 2
 axes.grid : False
 axes.prop_cycle : cycler(color=['1F77B4', 'FF7F0E', '00913e', '002147']) 
 
@@ -18,6 +19,8 @@ savefig.transparent : False
 
 lines.markersize : 10
 lines.linewidth : 4
+lines.dash_capstyle: round
+lines.solid_capstyle: round
 
 image.cmap : inferno
 image.aspect: auto

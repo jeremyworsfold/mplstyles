@@ -1,1 +1,1 @@
-from mplstyles.styles import StyleContext, _set_style, _style_names
+from mplstyles.styles import use, _style_names, style_context

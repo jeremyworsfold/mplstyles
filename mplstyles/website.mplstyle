@@ -5,6 +5,7 @@ axes.spines.top : False
 axes.spines.right : False
 axes.edgecolor : 1F77B4
 axes.labelcolor : 1F77B4
+axes.linewidth : 2
 axes.grid : False
 axes.prop_cycle : cycler(color=['1F77B4', 'FF7F0E', '00c749', '002147']) 
 
@@ -22,8 +23,10 @@ legend.edgecolor : 1F77B4
 
 lines.markersize : 10
 lines.linewidth : 4
+lines.dash_capstyle: round
+lines.solid_capstyle: round
 
-image.cmap : inferno
+image.cmap : plasma
 image.aspect: auto
 image.origin: lower
 

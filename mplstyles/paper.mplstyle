@@ -3,8 +3,13 @@ figure.facecolor : w
 
 axes.edgecolor : k
 axes.labelcolor : k
+axes.spines.top : True
+axes.spines.right : True
+axes.spines.left : True
+axes.spines.bottom : True
 axes.grid : True
 axes.grid.which : major
+axes.linewidth : 0.8
 axes.axisbelow : True
 axes.formatter.use_mathtext: True
 axes.prop_cycle : cycler(color=['b', 'r','g'],linestyle=['-', '--', ':'],marker=['o','s','x'])
