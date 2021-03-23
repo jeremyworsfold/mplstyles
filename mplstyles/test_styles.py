@@ -51,3 +51,18 @@ if __name__ == "__main__":
     test_use()
     test_colormap()
     test_style_context()
+
+    with mplstyles.style_context('paper'):
+        x = np.arange(10)
+        y1 = np.random.uniform(0,1,10)
+        y2 = np.random.uniform(0,1,10)
+        plt.figure()
+        plt.plot(x,y1,label='line1')
+        plt.plot(x,y2,label='line2')
+        plt.legend()
+        plt.xlabel(r'Time ($t$)')
+        plt.ylabel(r'$y(t)$')
+        import tikzplotlib
+
+        tikzplotlib.save("test.tex")
+        #plt.savefig('figure.pgf')

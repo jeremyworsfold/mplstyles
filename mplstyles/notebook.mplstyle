@@ -1,24 +1,35 @@
-axes.facecolor : w
 figure.facecolor : w
 
-axes.spines.top : False
-axes.spines.right : False
-axes.edgecolor : k
+axes.spines.top : True
+axes.spines.right : True
+axes.facecolor : eeeeee
+axes.edgecolor : bcbcbc 
 axes.labelcolor : k
 axes.linewidth : 2
-axes.grid : False
-axes.prop_cycle : cycler(color=['1F77B4', 'FF7F0E', '00913e', '002147']) 
+axes.grid : True
+axes.prop_cycle : cycler(color=['1F77B4', 'firebrick','FF7F0E', '00913e', '002147']) 
+
+grid.color : bcbcbc 
+grid.linestyle : :
+grid.linewidth : 2
 
 xtick.color : k
 ytick.color : k
+xtick.major.size: 0
+ytick.major.size: 0
+
+legend.frameon : True
+legend.framealpha : 0.6
+legend.edgecolor : bcbcbc 
+legend.fancybox : True
 
 figure.figsize : 10 , 8
 figure.dpi : 200
 savefig.dpi : 200
 savefig.transparent : False
 
-lines.markersize : 10
-lines.linewidth : 4
+lines.markersize : 8
+lines.linewidth : 2
 lines.dash_capstyle: round
 lines.solid_capstyle: round
 
@@ -27,7 +38,7 @@ image.aspect: auto
 image.origin: lower
 
 
-font.size : 22
+font.size : 16
 font.family : sans-serif
 font.sans-serif : Ubuntu
 text.color : k
