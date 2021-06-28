@@ -42,7 +42,9 @@ image.origin: lower
 
 font.size : 18
 font.family : serif
-font.serif : CMU Serif
+#font.serif : CMU Serif
 text.color : k
 
-mathtext.fontset : cm
+#mathtext.fontset : cm
+
+text.usetex : True

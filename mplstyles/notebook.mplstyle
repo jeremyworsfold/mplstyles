@@ -5,13 +5,13 @@ axes.spines.right : True
 axes.facecolor : eeeeee
 axes.edgecolor : bcbcbc 
 axes.labelcolor : k
-axes.linewidth : 2
+axes.linewidth : 1
 axes.grid : True
 axes.prop_cycle : cycler(color=['1F77B4', 'firebrick','FF7F0E', '00913e', '002147']) 
 
 grid.color : bcbcbc 
 grid.linestyle : :
-grid.linewidth : 2
+grid.linewidth : 1
 
 xtick.color : k
 ytick.color : k
@@ -24,11 +24,11 @@ legend.edgecolor : bcbcbc
 legend.fancybox : True
 
 figure.figsize : 10 , 8
-figure.dpi : 200
+figure.dpi : 100
 savefig.dpi : 200
 savefig.transparent : False
 
-lines.markersize : 8
+lines.markersize : 6
 lines.linewidth : 2
 lines.dash_capstyle: round
 lines.solid_capstyle: round
@@ -38,9 +38,10 @@ image.aspect: auto
 image.origin: lower
 
 
-font.size : 16
+font.size : 14
 font.family : sans-serif
 font.sans-serif : Ubuntu
 text.color : k
 
 mathtext.fontset : cm
+text.usetex : False
